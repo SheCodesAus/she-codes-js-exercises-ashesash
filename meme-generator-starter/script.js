@@ -17,3 +17,9 @@ function addTopText() {
     console.log(topText);
     document.getElementById('top-text').innerText = topText;
 }
+
+function addBottomText() {
+    let bottomText = document.getElementById("bottom-text-input").value;
+    console.log(bottomText);
+    document.getElementById('bottom-text').innerText = bottomText;
+}
